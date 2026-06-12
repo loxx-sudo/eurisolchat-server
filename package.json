@@ -1,1 +1,17 @@
-
+{
+  "name": "eurisolchat-push-server",
+  "version": "1.0.0",
+  "description": "Free push notification server for EurisolChat",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.0.0",
+    "web-push": "^3.6.7",
+    "express": "^4.18.2"
+  }
+}
